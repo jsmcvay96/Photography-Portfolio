@@ -89,7 +89,7 @@ body{
     width: 5%;
     height: .2%;
     background-color: black;
-    margin-bottom: 1.5%;
+    margin-bottom: 40px;
 }
 
 .works-wrapper{
@@ -104,7 +104,13 @@ body{
 
 #footer{
     background: black;
-    padding: 20px;
+    padding: 20px 0px;
+    margin-top: 80px;
+}
+
+#footer h3{
+    text-align: center;
+    color: white;
 }
 
 #footer ul{
@@ -112,9 +118,13 @@ body{
     list-style-type: none;
 }
 
+#footer h3{
+    padding-left: 16px;
+}
+
 #footer li{
     display: inline-block;
-    margin-left: 20px;
+    padding: 0px 50px;
 }
 
 #footer a{
@@ -123,5 +133,5 @@ body{
 }
 
 #footer a:hover{
-    text-decoration: underline;
+    color: rgba(238, 238, 238, 0.664);
 }
