@@ -2,8 +2,6 @@ body{
     font-family: arial;
     font-size: 16px;
     margin: 0;
-    background-color: #000;
-
 }
 
 #wrapper{
@@ -19,7 +17,7 @@ body{
     width: 100%;
     z-index: 2;
     opacity: .9;
-        box-shadow: 7px 10px 15px -10px rgba(0,0,0,0.84);
+    box-shadow: 7px 10px 15px -10px rgba(0,0,0,0.84);
 }
 
 
